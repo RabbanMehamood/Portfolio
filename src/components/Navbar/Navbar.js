@@ -4,7 +4,7 @@ import './Navbar.css'; // Custom styles if any
 
 function Navbar() {
     return (
-        <AppBar position="fixed">
+        <AppBar position="fixed" className="navbar-bg">
             <Toolbar>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     My Portfolio

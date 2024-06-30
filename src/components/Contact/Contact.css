@@ -1,0 +1,12 @@
+.contact-container{
+    display:flex;
+    flex-direction:row;
+    background-image: url("../../assets/contact.jpg");
+    max-height:40vh;
+    width:100%;
+}
+.details{
+    margin-top:120px;
+    display: flex;
+    flex-direction: row;
+}
