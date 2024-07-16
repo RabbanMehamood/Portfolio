@@ -1,0 +1,71 @@
+.about {
+  padding: 110px 50px 50px 50px;
+  background-image: url("../assets/505b1059396c27f7c5febe089ce130b3.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.inside-about {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.upper {
+  display: flex;
+  align-items: center;
+}
+
+.upper-left {
+  width: 90%;
+  margin-right: 30px;
+}
+
+.dp {
+  width: 30%;
+  height: fit-content;
+  border-radius: 30px;
+}
+
+.left-side {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.welcome {
+  font-size: 32px;
+}
+
+.upper-h3 {
+  margin-top: 30px;
+}
+
+.left-side-bottom {
+  display: flex;
+  margin-top: 50px;
+}
+
+.left-side-bottom h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.left-side-bottom ul li {
+  list-style: none;
+}
+
+.card-1,
+.card-2 {
+  background-color: rgba(0, 0, 0, 0.705);
+  border-radius: 30px;
+  padding: 50px;
+  flex-grow: 1;
+}
+
+.card-2 {
+  margin-left: 50px;
+}

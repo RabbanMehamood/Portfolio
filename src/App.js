@@ -1,18 +1,18 @@
-import './App.css';
-import React from 'react';
-import AboutMe from './components/AboutMe/AboutMe';
-import Contact from  './components/Contact/Contact';
-import Navbar from './components/Navbar/Navbar'
+import "./App.css";
+import React from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="app">
-    <Navbar />
-    <div className="content-container">
-      <AboutMe />
-      <Contact />
+      <Header />
+      <main>
+        <Main />
+        <Footer />
+      </main>
     </div>
-  </div>
   );
 }
 

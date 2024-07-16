@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  color: #fff;
+  background-image: url("../assets/19ce58c4d49883197ed1b2dac5108079.jpg");
+  position: fixed;
+  width: 100%;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 17px;
+}
